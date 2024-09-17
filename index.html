@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://res.cloudinary.com">
+  <link rel="dns-prefetch" href="https://res.cloudinary.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+  <link rel="me" href="#">
+  <link rel="canonical" href="#">
+  <link rel="icon" type="image/png" href="#" sizes="48x48">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <link rel="preload" as="style" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/logo_ayni.png" type="image/png">
+  <title>Ayni</title>
+</head>
+
+<body>
+<header role="banner" class="ui-section-header">
+  <div class="ui-layout-container">
+    <div class="ui-section-header__layout ui-layout-flex">
+      <a href="#" role="link" aria-label="#" class="ui-section-header-logo">
+        <img class="logo" src="img/logo_ayni.png"/>
+        <p class="ui-section-header--logo-label">Ayni</p>
+      </a>
+      <input type="checkbox" id="ui-section-header--menu-id">
+      <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
+      <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
+        <a href="https://ayni-landing-page-es.netlify.app" role="link" aria-label="english site" class="ui-section-header--nav-link ui-layout-flex gap-2">
+          <img class="ui-section-header--image" src="img/red-mundial.png" height="20" width="20">
+          Es
+        </a>
+        <a href="#aboutus" role="link" aria-label="#" class="ui-section-header--nav-link">About us</a>
+        <a href="#prices" role="link" aria-label="#" class="ui-section-header--nav-link">Features</a>
+        <a href="#closer" role="link" aria-label="#" class="ui-section-header--nav-link">Log in</a>
+        <a href="https://ayni-web-app.netlify.app/signin" role="link" aria-label="#" class="ui-section-header--nav-link">Sign in</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+  
+<main role="main">
+  <section class="ui-section-hero">
+    <div class="ui-section-hero__video">
+      <div class="ui-section-hero__overlay">
+        <div class="ui-layout-container">
+          <div class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2">
+            <div>
+              <h1 class="ui-section-hero--title" >Transform your Agriculture with Ayni</h1>
+              <p class="ui-section-hero--label">Optimize your crops, increase quality and boost your sales with our integrated farm management solution.</p>
+              <div class="ui-component-cta ui-layout-flex" style="flex-direction: row;">
+                <a href="">
+                  <img class="ui-section-hero--img" src="./img/google.png" alt="google.png">
+                </a>
+                <a href="">
+                  <img class="ui-section-hero--img" src="./img/appstore.jpg" alt="appstore.jpg">
+                </a>
+              </div>
+              <p class="ui-text-note ui-section-hero--label"><small>Enjoy our tools for farmers and traders</small></p>
+            </div>
+            <div>
+              <img src="./img/vista.png" alt="vista.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <video autoplay muted loop>
+        <source src="video/crops_view.mp4" type="video/mp4"></source>
+      </video>
+    </div>
+  </section>
+
+  <section class="ui-section-feature color">
+    <div class="ui-layout-container">
+      <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+        <img src="img/agricultor.svg" alt="#" class="ui-image-half-right">
+        <div>
+          <h2>Benefits for Farmers</h2>
+          <p class="ui-text-intro"><strong>Optimizes, manages and controls</strong> your crops efficiently and the way you want.</p>
+          <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+            <li class="ui-component-list--item ui-component-list--item-check">Logs and tracks your daily activities</li>
+            <li class="ui-component-list--item ui-component-list--item-check">Increase your income potential</li>
+            <li class="ui-component-list--item ui-component-list--item-check">Get detailed reports</li>
+            <li class="ui-component-list--item ui-component-list--item-check">Improve the quality of your products</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ui-section-feature">
+    <div class="ui-layout-container">
+      <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+        <div>
+          <h2>Benefits for Merchants</h2>
+          <p class="ui-text-intro"><strong>Find and purchase</strong> quality agricultural products to be marketed</p>
+          <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+            <li class="ui-component-list--item ui-component-list--item-check">Connect directly with reliable producers</li>
+            <li class="ui-component-list--item ui-component-list--item-check">Keep track of your orders and deliveries</li>
+            <li class="ui-component-list--item ui-component-list--item-check">Save time searching for fresh produce</li>
+            <li class="ui-component-list--item ui-component-list--item-check">Rate and leave reviews of the products you purchase</li>
+          </ul>
+        </div>
+        <img src="img/comerciante.svg" alt="#" class="ui-image-half-right">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="ui-section-pricing" id="prices">
+    <div class="ui-layout-container">
+      <h2>Learn about our functionalities</h2>
+      <p class="ui-text-intro">Understanding them is part of the process, so here are a few.</p>
+      <input type="radio" name="toggle" id="ui-component-toggle__monthly" checked>
+      <input type="radio" name="toggle" id="ui-component-toggle__yearly">
+      <div class="ui-component-toggle ui-layout-flex">
+        <label for="ui-component-toggle__monthly" class="ui-component-toggle--label" onclick="changeContent('agricultor')">Plans for Farmers</label>
+        <label for="ui-component-toggle__yearly" class="ui-component-toggle--label" onclick="changeContent('comerciante')">Plans for Mechants</label>
+      </div>
+      <div class="ui-section-pricing__layout ui-layout-grid ui-layout-grid-3">
+        <div class="ui-component-card ui-component-card--pricing" id="card1"></div>
+        <div class="ui-component-card ui-component-card--pricing" id="card2"></div>
+        <div class="ui-component-card ui-component-card--pricing" id="card3"></div>
+      </div>
+      <p>Any questions? <a href="#" role="link" aria-label="#">Contact us</a>.</p>
+    </div>
+  </section>
+
+  <section class="ui-section-testimonial" id="aboutus">
+    <div class="ui-layout-container">
+      <h2>About us</h2>
+      <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+        <div>
+          <strong>GreatMinds</strong>. Currently formed by a group of students from the Peruvian University of Applied Sciences, with the ambition of wanting to help society with our great passion for technology and information technology, we created this startup with the objective of facilitating and improving the production of the agricultural sector in Peru.<br><br>
+          <p><strong>Mission: </strong>To increase agricultural production with efficiency, safety and transparency among Peruvian producers and exporters.</p>
+          <p><strong>Vision: </strong>the most recognized application in Peru to manage crops in a safe, simple and online way.</p>
+        </div>
+        <img src="img/team.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="ui-section-testimonial color" id="testimonials">
+    <div class="ui-layout-container">
+      <h2>About the team</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/e7oaUMXrYsY?si=0qJWV3rWAEZKnyGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="ui-section-testimonial">
+    <div class="ui-layout-container">
+      <h2>About the product</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Zr5TA_p7ugo?si=XyeToTBDxB3U6A5S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="ui-section-close" id="closer">
+    <div class="ui-layout-container">
+      <div class="ui-layout-column-6 ui-layout-column-center">
+        <h2>Ready to get started?</h2>
+        <div class="padding">
+          <img src="img/ready.svg" alt="">
+        </div>
+        <p class="ui-text-intro">We are excited to be part of your journey towards a <strong>more efficient and successful</strong>. With our application, you will be able to take your crops <strong>to the next level</strong>, optimizing your processes and maximizing your results. Whether you are a grower committed to <strong>the quality of your products</strong> or a merchant looking for <strong>the best products for your business</strong>, our platform is here to support you every step of the way.</p>
+        <div class="ui-component-cta ui-layout-flex">
+          <a href="https://ayni-web-app.netlify.app/signin" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Starts free of charge</a>
+          <p class="ui-text-note"><small>Are you ready to join the agricultural revolution? Start your journey with us today!</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo" class="ui-section-footer">
+  <div class="ui-layout-container">
+    <div class="ui-section-footer__layout ui-layout-flex">
+      <p class="ui-section-footer--copyright ui-text-note"><small>&copy; GreatMinds</small></p>
+      <p class="ui-section-footer--text ui-text-note"> <small>Security</small></p>
+      <p class="ui-section-footer--text ui-text-note"> <small>Terms and Conditions</small></p>
+      <p class="ui-section-footer--text ui-text-note"> <small>All rights reserved</small></p>
+
+
+      <a href="#" role="link" aria-label="#">
+        <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" aria-label="#">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+        </svg>
+      </a>
+      <a href="#" role="link" aria-label="#">
+        <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" aria-label="#">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/>
+        </svg>
+      </a>
+      <a href="#" role="link" aria-label="#">
+        <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" aria-label="#">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
