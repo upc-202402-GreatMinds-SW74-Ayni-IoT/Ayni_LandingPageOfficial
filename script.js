@@ -61,22 +61,22 @@ function changeContent(segment){
               </div>
               <span><small>It allows you to organize your sowing, harvesting and agricultural activities efficiently, maximizing your results.</small></span>
               <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Create customized planting and harvesting calendars.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Recommendations based on climatic and soil data.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Reminders for important tasks, such as watering and fertilizing.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Create customized planting and harvesting plans.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Register parcels and crops</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Synchronization of plans with sensors and actuators</li>
               </ul>
               <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
         `;
         const func_2 = `
-        <span><strong>Pest and Disease Monitoring</strong></span>
+        <span><strong>Crop life cycle control by sensors and actuators</strong></span>
         <div class="ui-component-card--pricing-price">
           <img src="img/func-2.svg" alt="">
         </div>
         <span><small>It provides you with information and tips to keep your crops healthy.</small></span>
         <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-          <li class="ui-component-list--item ui-component-list--item-check">Database of common pests and diseases.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Prevention and control tips to maintain healthy crops.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Record observations and symptoms for accurate diagnosis.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Installation of sensors in the field.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Installation of actuators in the field</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Registers and monitors crops according to plans</li>
         </ul>
         <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
@@ -87,9 +87,9 @@ function changeContent(segment){
               </div>
               <span><small>Our tool helps you manage your resources and make informed decisions.</small></span>
               <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Stores detailed information on each input used.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Keeps track of quantities, dates and suppliers.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Calculate total input costs by crop and season.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Dashboards updated with sensor data.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Actuator notifications at any time</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Summary information in dashboards and reports</li>
               </ul>
               <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
         
