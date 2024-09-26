@@ -20,7 +20,7 @@ function changeContent(segment){
           <li class="ui-component-list--item ui-component-list--item-check">Displays a wide variety of agricultural products available.</li>
           <li class="ui-component-list--item ui-component-list--item-check">Provides detailed descriptions, photos and specifications from sensors</li>
         </ul>
-        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
+        <a href=https://ayni-webapp-v1.netlify.app/ class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
         const func_2 = `
         <span><strong>Order Tracking</strong></span>
@@ -32,7 +32,7 @@ function changeContent(segment){
           <li class="ui-component-list--item ui-component-list--item-check">Provides real-time updates on order status.</li>
           <li class="ui-component-list--item ui-component-list--item-check">Facilitates logistical coordination and avoids delays in operations.</li>
         </ul>
-        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
+        <a href=https://ayni-webapp-v1.netlify.app/ class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
         const func_3 = `
         <span><strong>Ratings and Reviews</strong></span>
@@ -44,7 +44,7 @@ function changeContent(segment){
           <li class="ui-component-list--item ui-component-list--item-check">Allows merchants to rate and leave comments on purchased products.</li>
           <li class="ui-component-list--item ui-component-list--item-check">Promotes transparency and confidence in product quality.</li>
         </ul>
-        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
+        <a href=https://ayni-webapp-v1.netlify.app/ class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
 
         card1.innerHTML = func_1;
@@ -62,7 +62,7 @@ function changeContent(segment){
                 <li class="ui-component-list--item ui-component-list--item-check">Register parcels and crops</li>
                 <li class="ui-component-list--item ui-component-list--item-check">Synchronization of plans with sensors and actuators</li>
               </ul>
-              <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
+              <a href=https://ayni-webapp-v1.netlify.app/ class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
         `;
         const func_2 = `
         <span><strong>Crop life cycle control by sensors and actuators</strong></span>
@@ -75,7 +75,7 @@ function changeContent(segment){
           <li class="ui-component-list--item ui-component-list--item-check">Installation of actuators in the field</li>
           <li class="ui-component-list--item ui-component-list--item-check">Registers and monitors crops according to plans</li>
         </ul>
-        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
+        <a href=https://ayni-webapp-v1.netlify.app/ class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
         const func_3 = `
         <span><strong>Registration of Inputs</strong></span>
@@ -88,7 +88,7 @@ function changeContent(segment){
                 <li class="ui-component-list--item ui-component-list--item-check">Actuator notifications at any time</li>
                 <li class="ui-component-list--item ui-component-list--item-check">Summary information in dashboards and reports</li>
               </ul>
-              <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
+              <a href=https://ayni-webapp-v1.netlify.app/ class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
         
         `
         card1.innerHTML = func_1;
